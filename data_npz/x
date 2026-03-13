@@ -1,1 +1,7 @@
+Sample Patches Data(.npz):
+- Bagian ini menyediakan sampel data dari dataset Sen2Fire yang digunakan untuk evaluasi model.
+- Setiap file .npz berisi data citra satelit Sentinel-2 (resolusi 10m) yang telah dipotong menjadi ukuran 512 x 512 pixel
 
+Berikut adalah isi dari setiap file .npz:
+- 13-Channel Input: Mencakup 12 band dari Sentinel-2 (RGB, NIR, SWIR, etc) ditambah 1 band Aerosol dari Sentinel-5P.
+- Ground Truth Label: Masker biner dari MODIS (resolusi 1km) yang telah di-resample untuk menandai area kebakaran aktif.
